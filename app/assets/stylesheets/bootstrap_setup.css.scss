@@ -1,0 +1,31 @@
+$display4-size:2.5rem;
+$jumbotron-bg:rgba(255,255,255,0.2);
+@import "bootstrap";
+.container-background{
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(image_path('background.jpg'));
+}
+
+.jumbotron-landing{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.btn-primary-color {
+  color:rgba(77, 5, 232, 1);
+}
+.btn-danger-color{
+  color:#947cb0
+}
+.nav-color:link,
+.nav-color:visited{
+  color:#1f3a93;
+}
+.nav-color:hover,
+.nav-color:active{
+  color:#013243;
+  text-decoration:none;
+}
